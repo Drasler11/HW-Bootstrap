@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>VanYa</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="bstyle.css">
+
+  </head>
+
+
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-scissors"></span> Frizerstvo Vanya</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Domov<span class="sr-only">(current)</span></a></li>
+        <li><a href="#">O nas</a></li>
+        <li><a href="#">Lokacija</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ponudba <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#ponudba">Žensko striženje</a></li>
+            <li><a href="#ponudba">Moško striženje</a></li>
+            <li><a href="#ponudba">Otroško striženje</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#ponudba">Barvanje</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#ponudba">Posebne priložnosti</a></li>
+          </ul>
+        </li>
+        <li><a href="#cenik">Cenik</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span> 050-899-998</a></li>
+        <li><a href="#email"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Email</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span> Socialna omrežja <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Youtube</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+<div class="container">
+<!-- Carousel -->
+<!-- Surround everything with a div with the class carousel slide -->
+<div id="theCarousel" class="carousel slide" data-ride="carousel">
+
+  <!-- Define how many slides to put in the carousel -->
+  <ol class="carousel-indicators">
+    <li data-target="#theCarousel" data-slide-to="0"> </li >
+    <li data-target="#theCarousel" data-slide-to="1" class="active"> </li>
+    <li data-target ="#theCarousel" data-slide-to="2"> </li>
+  </ol >
+
+  <!-- Define the text to place over the image -->
+
+  <div class="carousel-caption">
+    <h1>Frizerstvo Vanya</h1>
+    <p>Kjer lasje zaživijo!</p>
+    <p><a href="#email" class="btn btn-info btn-sm">Naroči se</a></p>
+  </div>
+  <div class="carousel-inner">
+    <div class="item" >
+      <div class ="slide1"><img src="img-slider/1.jpg" alt="Lasje"></div>
+    </div>
+    <div class="item active">
+      <div class="slide2"><img src="img-slider/2.jpg" alt="Lasje"></div>
+    </div>
+    <div class="item">
+      <div class="slide3"><img src="img-slider/3.jpg" alt="Lasje"></div>
+    </div>
+  </div>
+
+  <!-- Set the actions to take when the arrows are clicked -->
+  <a class="left carousel-control" href="#theCarousel" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left"> </span>
+  </a>
+  <a class="right carousel-control" href="#theCarousel" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+  </div>
+</div>
+<br>
+
+<div class="container" id="ponudba">
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="#"><h3 class="text-center">Žensko striženje</h3>
+      <img src="img-ponudba/z.jpg" alt="zensko strizenje" class="img-rounded img-responsive center-block"></a>
+    </div>
+    <div class="col-sm-4">
+      <a href="#"><h3 class="text-center">Moško striženje</h3>
+      <img src="img-ponudba/m.jpg" alt="mosko strizenje" class="img-rounded img-responsive center-block"></a>
+    </div>
+    <div class="col-sm-4">
+      <a href="#"><h3 class="text-center">Otroško striženje</h3>
+      <img src="img-ponudba/o.jpg" alt="otrosko strizenje" class="img-rounded img-responsive center-block"></a>
+    </div>
+    <div class="row">
+      <div class="col-sm-2"> </div>
+    <div class="col-sm-4">
+      <a href="#"><h3 class="text-center">Barvanje</h3>
+      <img src="img-ponudba/c.jpg" alt="barvanje" class="img-rounded img-responsive center-block"></a>
+    </div>
+    <div class="col-md-4">
+      <a href="#"><h3 class="text-center">Posebne priložnosti</h3>
+      <img src="img-ponudba/w.jpg" alt="posebne priloznosti" class="img-rounded img-responsive center-block"></a>
+    </div>
+    <div class="col-md-2"> </div>
+    </div>
+  </div>
+</div> <!-- container -->
+<br>
+<br>
+
+<div class="container">
+  <div class="jumbotron">
+    <h2 class="text-center"><span class="glyphicon glyphicon-scissors"></span> Odpiralni čas</h2>
+    <br>
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-4">
+        <p class="text-center"><strong>Ponedeljek</strong> <span class="glyphicon glyphicon-arrow-right"></span> 9:00 - 14:00</p>
+        <p class="text-center"><strong>Torek</strong> <span class="glyphicon glyphicon-arrow-right"></span> 9:00 - 14:00</p>
+        <p class="text-center"><strong>Sreda</strong> <span class="glyphicon glyphicon-arrow-right"></span> 14:00 - 20:00</p>
+      </div>
+      <div class="col-sm-4">
+        <p class="text-center"><strong>Četrtek</strong> <span class="glyphicon glyphicon-arrow-right"></span> 9:00 - 14:00</p>
+        <p class="text-center"><strong>Petek</strong> <span class="glyphicon glyphicon-arrow-right"></span> 14:00 - 20:00</p>
+        <p class="text-center"><strong>Vikendi in prazniki</strong>  <span class="glyphicon glyphicon-arrow-right"></span>  Zaprto</p>
+      </div>
+      <div class="col-sm-2"></div>
+    </div>
+    <br>
+     <p class="text-center"><a class="btn btn-info btn-lg" href="#email" role="button">Naroči se!</a></p>
+   </div>
+</div>
+<br>
+
+<div class="container" id="email">
+  <div class="alert alert-info" role="alert"><h2 class="text-center">Naroči se</h2>
+  <br>
+  <div class="input-group">
+    <span class="input-group-addon" id="basic-addon1">Ime in priimek</span>
+    <input type="text" class="form-control" placeholder="Ana Novak" aria-describedby="basic-addon1">
+  </div>
+  <br>
+  <div class="input-group">
+    <span class="input-group-addon" id="basic-addon2">Telefonska številka</span>
+    <input type="text" class="form-control" placeholder="+386 ..." aria-describedby="basic-addon2">
+  </div>
+  <br>
+  <div class="input-group">
+    <span class="input-group-addon" id="basic-addon3">E-naslov</span>
+    <input type="text" class="form-control" placeholder="novak@email.com" aria-describedby="basic-addon3">
+  </div>
+  <br>
+  <div class="text-center">
+  <div class="btn-group" role="group" aria-label="...">
+    <button type="button" class="btn btn-default">Žensko</button>
+    <button type="button" class="btn btn-default">Moško</button>
+    <button type="button" class="btn btn-default">Otroško</button>
+    <button type="button" class="btn btn-default">Barvanje</button>
+    <button type="button" class="btn btn-default">Posebne priložnosti</button>
+  </div>
+  </div>
+  <br>
+  <div class="form-group">
+    <label for="comment">Posebne želje:</label>
+    <textarea class="form-control" rows="5" id="comment"></textarea>
+  </div>
+  <br>
+   <div class="text-center">
+     <!-- Trigger the modal with a button -->
+     <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Pošlji</button>
+   </div>
+   </div>
+</div>
+<br>
+
+<div class="container" id="cenik">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h2 class="text-center">Cenik</h2>
+    </div>
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-4">
+          <p class="text-center"><strong>Žensko striženje</strong> <span class="glyphicon glyphicon-arrow-right"></span> 15€</p>
+          <p class="text-center"><strong>Moško striženje</strong> <span class="glyphicon glyphicon-arrow-right"></span> 15€</p>
+          <p class="text-center"><strong>Otroško striženje</strong> <span class="glyphicon glyphicon-arrow-right"></span> 10€</p>
+        </div>
+        <br>
+        <div class="col-sm-4">
+          <p class="text-center"><strong>Barvanje</strong> <span class="glyphicon glyphicon-arrow-right"></span> 20€</p>
+          <p class="text-center"><strong>Posebne priložnosti</strong> <span class="glyphicon glyphicon-arrow-right"></span> Po dogovoru.</p>
+        </div>
+        <div class="col-sm-2"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<nav class="navbar navbar-default navbar-bottom navbar-inverse">
+  <div class="container">
+    <p class="text-center" style="margin-top: 15px;"><span class="glyphicon glyphicon-scissors"></span> Frizerstvo Vanya &amp;copy </p>
+  </div>
+</nav>
+<!--END of the PAGE -->
+
+
+
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Uspešno poslano</h4>
+      </div>
+      <div class="modal-body">
+        <p style="font-size: 14px;">Hvala za vaše naročilo!</p>
+        <p>V kratkem vam bomo na podan e-naslov poslali potrditev termina. V kolikor je termin že zaseden, vam bomo predlagali prostega.</p>
+        <br>
+        <p>Vaša Vanya <span class="glyphicon glyphicon-heart-empty"></span> <span class="glyphicon glyphicon-scissors"></span></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+
+<!-- Use downloaded version of Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+
+
+  </body>
+</html>
